@@ -92,10 +92,8 @@ PRODUCT_PACKAGES += \
     preinstalled-packages-product-pixel-2025-and-newer \
     preinstalled-packages-product-pixel-2026-and-newer
 
-ifneq ($(filter oriole raven panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel_experience_2021
-endif
 
 ifeq ($(TARGET_INCLUDE_MOSEY),true)
 PRODUCT_PACKAGES += \
