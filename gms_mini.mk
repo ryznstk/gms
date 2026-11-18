@@ -31,6 +31,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
+    AiIconsPrebuilt_20260121 \
     CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
